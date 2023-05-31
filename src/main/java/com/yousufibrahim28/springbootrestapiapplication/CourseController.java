@@ -24,6 +24,7 @@ import java.util.List;
 @RestController
 public class CourseController {
 
+    // This annotation maps the request to the url path
     @RequestMapping("/courses")
     public List<Course> retrieveAllCourses() {
         return Arrays.asList(

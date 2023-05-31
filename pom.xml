@@ -17,11 +17,12 @@
 		<java.version>20</java.version>
 	</properties>
 	<dependencies>
+		<!-- Add this for if you want to develop a REST Api or web application-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
+		<!-- Add this for enabling developer tools-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
