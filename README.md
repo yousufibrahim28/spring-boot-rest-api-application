@@ -3,6 +3,11 @@ spring-boot-rest-api-application Spring Boot course works tutorial
 
 **Spring Boot notes**
 
+**When creating Spring Boot projects from Spring Initializr and importing to Intellij IDEA, if your project is not recognised**
+**Delete all the .iml files from the project directories**
+**Run "mvn clean install" in the project root directory from the terminal**
+**Now reopen the project and right click on the pom.xml -> Maven -> Reload project click on it, this will solve the issue**
+
 When creating a Spring project we need to take care of following which is not easy.
 
 - Dependency management - we have to manage frameworks and version. (pom.xml)
